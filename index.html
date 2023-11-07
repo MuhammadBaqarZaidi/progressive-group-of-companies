@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f7f7f7;
+            background-color: #ccc;
         }
         header {
             background-color: #333;
@@ -40,6 +40,13 @@
             font-size: 18px;
             color: #555;
         }
+
+        @media (min-width:768px) {
+            .grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
     </style>
 </head>
 <body>
@@ -47,34 +54,43 @@
         <h1>Progressive Group of Companies</h1>
     </header>
     <div class="container">
-        <h2>Vision Statement</h2>
-        <p>Progressive group is committed to safeguard the interest of its shareholders, employees, and its clients.</p>
-        <h2>Business Sectors</h2>
-        <ul>
-            <li>Insurance</li>
-            <li>Leasing</li>
-            <li>Airline</li>
-            <li>Energy</li>
-            <li>Petroleum</li>
-            <li>Power Generation</li>
-            <li>Agriculture</li>
-            <li>Restaurants</li>
-            <li>Supermarket</li>
-        </ul>
-        <h2>Subsidiary Companies</h2>
-        <ul>
-            <li>Progressive Insurance Co Ltd</li>
-            <li>Progressive Agriculture and Trading Co Ltd.</li>
-            <li>Progressive International</li>
-            <li>Power Energy Supplier (Pvt) Ltd</li>
-            <li>Cargill Progressive Petroleum (Pvt) Ltd</li>
-            <li>Progressive Cargill Holdings (Pvt) Ltd</li>
-            <li>Progressive Global Exports (Pvt) Ltd</li>
-            <li>Cravings Hotel and Restaurants (Pvt) Ltd</li>
-            <li>Habib Alvin Modarba (Pvt) Ltd.</li>
-            <li>Pakistan Industrial And Commercial Leasing Ltd.</li>
-            <li>Pearl Air Ltd.</li>
-        </ul>
+        <div class="vission">
+            <h2>Vision Statement</h2>
+            <p>Progressive group is committed to safeguard the interest of its shareholders, employees, and its clients.</p>
+        </div>
+        <div class="grid">
+            <div>
+                <h2>Business Sectors</h2>
+                <ul>
+                    <li>Insurance</li>
+                    <li>Leasing</li>
+                    <li>Airline</li>
+                    <li>Energy</li>
+                    <li>Petroleum</li>
+                    <li>Power Generation</li>
+                    <li>Agriculture</li>
+                    <li>Restaurants</li>
+                    <li>Supermarket</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Subsidiary Companies</h2>
+                <ul>
+                    <li>Progressive Insurance Co Ltd</li>
+                    <li>Progressive Agriculture and Trading Co Ltd.</li>
+                    <li>Progressive International</li>
+                    <li>Power Energy Supplier (Pvt) Ltd</li>
+                    <li>Cargill Progressive Petroleum (Pvt) Ltd</li>
+                    <li>Progressive Cargill Holdings (Pvt) Ltd</li>
+                    <li>Progressive Global Exports (Pvt) Ltd</li>
+                    <li>Cravings Hotel and Restaurants (Pvt) Ltd</li>
+                    <li>Habib Alvin Modarba (Pvt) Ltd.</li>
+                    <li>Pakistan Industrial And Commercial Leasing Ltd.</li>
+                    <li>Pearl Air Ltd.</li>
+                </ul>
+            </div>
+        </div>
+               
         <div class="under-construction">
             <p>The site is currently under construction. Please check back later for updates.</p>
         </div>
